@@ -23,8 +23,7 @@
 }
 .current {
   color: #fff;
-  font-size: 18px;
-  font-family: 'FiraSans', sans-serif;
+  font-size: 14px;
   font-weight: 400;
 }
   .nice-select:hover {
@@ -116,9 +115,8 @@
   .nice-select .option {
     color: #fff;
     font-weight: 400;
-    font-family: 'FiraSans', sans-serif;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 30px;
     list-style: none;
     min-height: 30px;
@@ -135,7 +133,7 @@
 
       background-color: transparent; }
     .nice-select .option.selected {
-      font-weight: 400;
+      font-weight: normal;
     }
     .nice-select .option.disabled {
       background-color: transparent;
