@@ -263,8 +263,7 @@ a{
 	text-transform: uppercase;
 	line-height: 0.75;
 	text-align: center;
-	padding-top: 46px;
-	margin-bottom: 28px;
+	padding-top: 65px;
 }
 .section2__text{
 	font-size: 18px;
@@ -274,6 +273,9 @@ a{
 	width: 728px;
 	font-weight: 500;
 	margin: 46px auto 0 auto;
+}
+.section2__text.oneSection {
+	margin: 30px auto 0 auto;
 }
 /*SECTION2*/
 /*SECTION3*/
