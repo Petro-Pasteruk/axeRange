@@ -301,7 +301,7 @@ a{
 	line-height: 1.667;
 	text-align: center;
 	width: 728px;
-	margin: 46px auto 0 auto;
+	margin: 30px auto 0 auto;
 }
 /*SECTION3*/
 /*SECTION4*/
@@ -432,7 +432,7 @@ a{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .tablet{
 	display: none;
