@@ -446,6 +446,31 @@ a{
 	position: relative;
 	width: 256px;
 }
+
+.block1__left,
+.block1__right,
+.block__left-img,
+.block21__left,
+.block21__left {
+	overflow: hidden;
+}
+
+.block1__left img,
+.block1__right img,
+.block__left-img img,
+.block21__left img,
+.block21__left img {
+	transition: transform .3s;
+}
+
+.block1__left:hover img,
+.block1__right:hover img,
+.block__left-img:hover img,
+.block21__left:hover img,
+.block21__left:hover img {
+	transform: scale(1.2);
+}
+
 .block1__left-text{
 	position: absolute;
 	bottom: 22px;
