@@ -982,3 +982,7 @@ footer{
 	touch-action: auto!important;
 	-ms-touch-action: auto!important;
 }
+
+.section4 {
+	display: none !important;
+}
