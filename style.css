@@ -37,7 +37,6 @@ body {
 	font-size: 18px;
 	margin: 0;
 	background-color: #000;
-	overflow-x: hidden;
 }
 .page__cell {
 	max-width: 1130px;
@@ -54,6 +53,7 @@ a{
 .content  {
 	opacity: 0;
 	transition: opacity 1.5s;
+	overflow: hidden;
 }
 
 /* PRELOADER */
@@ -981,4 +981,4 @@ footer{
 .slick-slider {
 	touch-action: auto!important;
 	-ms-touch-action: auto!important;
-	}
+}
