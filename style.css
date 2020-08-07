@@ -506,11 +506,14 @@ a{
 	letter-spacing: 0;
 	margin-top: 16px;
 }
+.block1__right-text.taR {
+	text-align: right;
+}
 .block21__right{
 	width: 256px;
 }
 .block1__right-link{
-	font-size: 18pxm;
+	font-size: 18px;
 	text-align: left;
 	padding-bottom: 5px;
 	line-height: 1;
@@ -571,7 +574,7 @@ a{
 	text-align: left;
 	padding-bottom: 5px;
 	line-height: 1;
-	margin-top: 54px;
+	margin-top: 5px;
 	transition: .2s ease;
 }
 .block22__right-link a{
@@ -586,7 +589,7 @@ a{
 	text-align: right;
 }
 .block3-link{
-	margin-top: 34px;
+	margin-top: 5px;
 	text-align: right;
 }
 .section__info-block5{
@@ -605,7 +608,7 @@ a{
 	width: 126px;
 }
 .block5-link{
-	margin-top: 53px;
+	margin-top: 5px;
 }
 .line2{
 	margin-top: 24px;
