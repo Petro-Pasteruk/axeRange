@@ -1155,11 +1155,6 @@
 		height: 395px;
 		margin-top: 20px;
 	}
-
-	.nice-select:after{
-		margin-top: -0.25rem!important;
-		left: 9.5rem!important;
-	}
 	.section1{
 		height: 100vh;
 	}
@@ -1170,12 +1165,13 @@
 		font-size: 14px!important;
 	}
 	.nice-select{
-		width: 110px!important;
+		width: 130px!important;
 		height: 22px!important;
 	}
 	.nice-select:after {
-		margin-top: -0.56rem!important;
-		left: 90px!important;
+		margin-top: -0.7rem!important;
+		right: 12px!important;
+		left: initial !important;
 	}
 	.nice-select .option{
 		font-size: 14px!important;
