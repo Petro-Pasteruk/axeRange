@@ -22,6 +22,10 @@
 @media screen and (max-width: 1025px) {
 	/*old style*/
 
+	.contact__item-img {
+		min-width: 26px;
+	}
+
 	body {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 400;
@@ -623,7 +627,7 @@
 	.maplink {
 		color: #fff;
 		font-size: 1.125rem;
-		line-height: .8;
+		line-height: initial;
 		letter-spacing: 0.1em;
 	}
 	.contact__item{
@@ -1125,7 +1129,43 @@
 	line-height: 2.875rem!important;
 	}
 }
+@media screen and (max-width: 453px){
+	.h1 {
+		font-size: 1.8rem;
+	}
+}
+@media screen and (max-width: 450px) {
+	.contact__item-text1,
+	.mailto,
+	.maplink,
+	.mobile-phone,
+	.open__item-text {
+		font-size: 1rem;
+	}
+	.contact {
+		align-items: baseline;
+	}
+	.open__item-text {
+		display: inline-block;
+	}
+	.day {
+		width: initial;
+	}
+	.open__item {
+		width: 100%;
+	}
+	.open,
+	.contact-us {
+		width: 48%;
+	}
+	.item-social {
+		margin-top: 1rem;
+	}
+}
 @media screen and (max-width: 425px){
+	.section1 {
+		min-height: 490px;
+	}
 	/*.section1__headline {*/
 	/*	font-size: 24px;*/
 	/*}*/
@@ -1227,13 +1267,15 @@
 		margin-top: 5.5rem!important;
 	}
 	.contact{
-		flex-wrap: wrap;
-		justify-content: flex-start;
+		justify-content: space-between;
 	}
 	.section4__headline {
 		
 		padding-top: 6.5rem;
 		margin-bottom: 2.875rem;
+	}
+	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+		font-size: 1.2rem;
 	}
 }
 @media screen and (max-width: 414px){
@@ -1253,28 +1295,15 @@
 		height: 430px;
 	}*/
 	.contact__item-img {
-		width: 36px;
+		min-width: 36px;
 	}
-	.contact__item-text, .mobile-phone, .decktop-phone {
-		font-size: 16px;
-	}
-	.contact__item-text1, .mailto, .maplink {
-		font-size: 14px;
-	}
-	.h1 {
-		font-size: 20px;
-	}
-
 	.open__item{
 		width: 100%;
 	}
 	.open__item-text {
 		font-size: 14px;
 	}
-	.day {
-		font-size: 16px;
-		width: 100%;
-	}.open__item-text1 {
+	.open__item-text1 {
 		font-size: 12px;
 		width: 100%;
 	}
@@ -1297,6 +1326,13 @@
 	}
 }
 @media screen and (max-width: 385px){
+	.open__item-text,
+	.open__item-text1 {
+		font-size: 1.2rem;
+	}
+	.contact__item-img {
+		min-width: 36px;
+	}
 	.section1__btn {
 		margin-top: 42vh;
 	}
@@ -1327,9 +1363,19 @@
 		height: 63vh;
 	}*/
 }
+@media screen and (max-width: 363px){
+	.h1 {
+		font-size: 1.6rem;
+	}
+}
 @media screen and (max-width: 360px){
 	.section1__btn {
 		margin-top: 37vh;
+	}
+}
+@media screen and (max-width: 342px) {
+	.h1 {
+		font-size: 1.4rem;
 	}
 }
 @media screen and (max-width: 330px){

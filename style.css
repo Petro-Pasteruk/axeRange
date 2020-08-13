@@ -794,7 +794,7 @@ footer{
 	margin-bottom: 12px;
 }
 .contact__item-img{
-	width: 36px;
+	min-width: 36px;
 	margin-right: 16px;
 }
 .contact__item-text{
