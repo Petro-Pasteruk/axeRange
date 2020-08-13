@@ -1164,7 +1164,7 @@
 }
 @media screen and (max-width: 425px){
 	.section1 {
-		min-height: 490px;
+		min-height: 690px;
 	}
 	/*.section1__headline {*/
 	/*	font-size: 24px;*/
@@ -1326,6 +1326,9 @@
 	}
 }
 @media screen and (max-width: 385px){
+	.section1 {
+		min-height: 490px;
+	}
 	.open__item-text,
 	.open__item-text1 {
 		font-size: 1.2rem;
