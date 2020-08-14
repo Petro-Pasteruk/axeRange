@@ -1113,7 +1113,9 @@
 	.decktop-phone{
 		display: none;
 	}
-
+	.nice-select:after {
+		top: 40%;
+	}
 }
 @media screen and (max-width: 595px) {
 	.contact{
@@ -1276,6 +1278,9 @@
 	}
 	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
 		font-size: 1.2rem;
+	}
+	.nice-select:after {
+		top: 50%;
 	}
 }
 @media screen and (max-width: 414px) {
