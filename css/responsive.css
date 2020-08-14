@@ -1090,7 +1090,7 @@
 		opacity: 1;
 	}
 }
-@media screen and (max-width: 725px){
+@media screen and (max-width: 725px) {
 	html {
 		font-size: 70%;
 	}
@@ -1115,12 +1115,12 @@
 	}
 
 }
-@media screen and (max-width: 595px){
+@media screen and (max-width: 595px) {
 	.contact{
 		padding: 15px;
 	}
 }
-@media screen and (max-width: 505px){
+@media screen and (max-width: 505px) {
 	html {
 		font-size: 60%;
 	}
@@ -1129,7 +1129,7 @@
 	line-height: 2.875rem!important;
 	}
 }
-@media screen and (max-width: 453px){
+@media screen and (max-width: 453px) {
 	.h1 {
 		font-size: 1.8rem;
 	}
@@ -1162,7 +1162,7 @@
 		margin-top: 1rem;
 	}
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
 	.section1 {
 		min-height: 780px;
 	}
@@ -1278,7 +1278,7 @@
 		font-size: 1.2rem;
 	}
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 414px) {
 	.section1__headline {
 		font-size: 25px;
 	}
@@ -1304,8 +1304,9 @@
 		font-size: 14px;
 	}
 	.open__item-text1 {
-		font-size: 12px;
+		font-size: 11px;
 		width: 100%;
+		white-space: nowrap;
 	}
 	.map {
 		height: 300px;
@@ -1325,7 +1326,7 @@
 		padding-top: 52px;*/
 	}
 }
-@media screen and (max-width: 385px){
+@media screen and (max-width: 385px) {
 	.section1 {
 		min-height: 630px;
 	}
@@ -1366,14 +1367,17 @@
 		height: 63vh;
 	}*/
 }
-@media screen and (max-width: 363px){
+@media screen and (max-width: 363px) {
 	.h1 {
 		font-size: 1.6rem;
 	}
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 	.section1__btn {
 		margin-top: 37vh;
+	}
+	.open__item-text1 {
+		font-size: 8px;
 	}
 }
 @media screen and (max-width: 342px) {
@@ -1381,7 +1385,7 @@
 		font-size: 1.4rem;
 	}
 }
-@media screen and (max-width: 330px){
+@media screen and (max-width: 330px) {
 	.section1__btn {
 		margin-top: 20vh;
 	}
@@ -1400,7 +1404,13 @@
 		height: 70vh;
 	}*/
 }
-@media screen and (max-width: 385px) and (min-height: 800px){
+@media screen and (max-width: 320px) {
+	.open__item-text1 {
+		font-size: 7px;
+	}
+}
+
+@media screen and (max-width: 385px) and (min-height: 800px) {
 	.section1__axe-right, .section1__axe-left, .section1__target {
 		top: 45%;
 	}
@@ -1411,7 +1421,7 @@
 		margin-top: 44.5vh;
 	}
 }
-@media screen and (max-width: 425px) and (min-height: 800px){
+@media screen and (max-width: 425px) and (min-height: 800px) {
 	.section1__axe-right, .section1__axe-left, .section1__target {
 		top: 47%;
 	}
