@@ -1,11 +1,12 @@
-@import url("css/normalize.css");
+@import "css/aos";
+@import "css/normalize";
 
 @font-face {
 	font-family: 'Bebas Neue';
 	src: local('Bebas Neue Regular'), local('Bebas-Neue-Regular'),
-	url('fonts/BebasNeueRegular.woff2') format('woff2'),
-	url('fonts/BebasNeueRegular.woff') format('woff'),
-	url('fonts/BebasNeueRegular.ttf') format('truetype');
+	url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+	url('../fonts/BebasNeueRegular.woff') format('woff'),
+	url('../fonts/BebasNeueRegular.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -138,7 +139,7 @@ a{
 .section1{
 	position: relative;
 	height: 850px;
-	background-image: url("images/bg_section1.jpg");
+	background-image: url("../images/bg_section1.jpg");
 	background-size: cover;
 }
 .section1:after{
@@ -326,7 +327,7 @@ a{
 	position: relative;
 	/*height: 46.875rem;*/
 	padding-bottom: 46px;
-	background-image: url("images/bg_section2.jpg");
+	background-image: url("../images/bg_section2.jpg");
 	background-size: cover;
 }
 .section2__headline{
@@ -355,7 +356,7 @@ a{
 .section3{
 	position: relative;
 	padding-bottom: 46px;
-	background-image: url("images/bg_section3.jpg");
+	background-image: url("../images/bg_section3.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -394,7 +395,7 @@ a{
 	position: relative;
 	/*height: 46.875rem; */
     padding-bottom: 46px;
-	background-image: url("images/bg_section1.jpg");
+	background-image: url("../images/bg_section1.jpg");
 	background-position: top center;
 	background-size: cover;
 }
@@ -488,7 +489,7 @@ a{
 .section5{
 	position: relative;
 	/*height: 46.875rem;*/
-	background-image: url("images/bg_section5.jpg");
+	background-image: url("../images/bg_section5.jpg");
 	background-size: cover;
 	padding-bottom: 46px;
 }
@@ -690,7 +691,7 @@ a{
 .section6{
 	position: relative;
 	height: 750px;
-	background-image: url("images/bg_section6.jpg");
+	background-image: url("../images/bg_section6.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -945,7 +946,7 @@ footer{
 	height: 40px;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(images/blik.jpg);
+	background-image:url(../images/blik.jpg);
 	top:45%;
 	right:90%;
 	animation:Jb 3.4s ease-in-out;
@@ -961,7 +962,7 @@ footer{
 	height:40px;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(images/blik.jpg);
+	background-image:url(../images/blik.jpg);
 	top:54%;right:90%;
 	animation:Jb 3.4s ease-in-out;
 	animation-duration:3.5s;
@@ -982,3 +983,6 @@ footer{
 	touch-action: auto!important;
 	-ms-touch-action: auto!important;
 }
+
+@import "css/responsive";
+@import "css/nice-select";
