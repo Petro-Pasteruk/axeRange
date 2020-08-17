@@ -92,7 +92,7 @@ $(document).ready(function () {
 \t\t\t\t\t\t\t<br>to Closing</div>
 \t\t\t\t\t</div>`;
 
-        oldContactItem.innerHTML = `<a title="click to visit map" target="_blank" class="maplink" href="https://goo.gl/maps/tymxCCCDFqL2">St. Augustine, FL 32084</a>`;
+        oldContactItem.innerHTML = `<a title="click to visit map" target="_blank" class="maplink" href="https://goo.gl/maps/11mRJZFuJsZhbc2K9">100 St. George st, St. Augustine, FL <span>32084</span></a>`;
         newContactItem.innerHTML = `<a title="click to visit map" target="_blank" class="maplink" href="https://goo.gl/maps/4gJZzS48vH7bPs9s5">100 Saint George street, St. Augustine, Florida</a>`;
 
         oldMapParent.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.6332361804293!2d-87.62767486487378!3d41.87923682399129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca33f58ffd1%3A0xf06bc2d1f0d09729!2zMjExIFMgU3RhdGUgU3QsIENoaWNhZ28sIElMIDYwNjA0LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1555176889706!5m2!1sru!2sua" width="100%" height="340" frameborder="0" style="border:0;max-width:100%" allowfullscreen></iframe>`;

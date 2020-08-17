@@ -756,6 +756,9 @@ footer{
 	display: flex;
 	align-items: center;
 }
+.contact-us {
+	width: 50%;
+}
 .h1{
 	font-size: 24px;
 	line-height: 2;
@@ -765,7 +768,6 @@ footer{
 	font-weight: 500;
 }
 .item-social{
-	margin-top: 32px;
 	margin-bottom: 0!important;
 }
 .contact__item-text,
@@ -785,7 +787,7 @@ footer{
 .mailto,
 .maplink {
 	color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1.2;
 	letter-spacing: 0.1em;
 }

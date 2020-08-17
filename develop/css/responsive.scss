@@ -606,7 +606,6 @@
 		font-weight: 500;
 	}
 	.item-social{
-		margin-top: 2rem;
 		margin-bottom: 0!important;
 	}
 	.contact__item-text,
@@ -638,6 +637,9 @@
 	.contact__item-img{
 		width: 2.25rem;
 		margin-right: .75rem;
+	}
+	.item-social .contact__item-img {
+		margin-right: 1rem;
 	}
 	.contact__item-text{
 		font-size: 1.125rem;
@@ -1031,7 +1033,7 @@
 		font-size: 2rem;
 	}
 	.contact__item-img {
-		width: 2.75rem;
+		min-width: 2.75rem;
 	}
 	.contact__item-text, .mobile-phone, .decktop-phone {
 		font-size: 1.625rem;
@@ -1159,9 +1161,6 @@
 	.open,
 	.contact-us {
 		width: 48%;
-	}
-	.item-social {
-		margin-top: 1rem;
 	}
 }
 @media screen and (max-width: 425px) {
@@ -1372,6 +1371,16 @@
 		height: 63vh;
 	}*/
 }
+@media screen and (max-width: 380px) {
+	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 370px) {
+	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+		font-size: 1rem;
+	}
+}
 @media screen and (max-width: 363px) {
 	.h1 {
 		font-size: 1.6rem;
@@ -1388,6 +1397,9 @@
 @media screen and (max-width: 342px) {
 	.h1 {
 		font-size: 1.4rem;
+	}
+	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+		font-size: .9rem;
 	}
 }
 @media screen and (max-width: 330px) {
