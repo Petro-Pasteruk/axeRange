@@ -971,23 +971,32 @@ footer{
 	top:54%;right:100%;
 }
 
+.spacial-raiting:hover:before,
 .raiting-icone:hover:before {
+	right: 90%;
+	-webkit-animation:Jb 3.4s ease-in-out;
 	animation:Jb 3.4s ease-in-out;
+	-webkit-animation-duration:3.5s;
 	animation-duration:3.5s;
 }
 
-.spacial-raiting:hover:before {
-	animation:Jb 3.4s ease-in-out;
-	animation-duration:3.5s;
-}
-
-@keyframes Jb{
-	0%{right:120px; opacity: 0}
+@-webkit-keyframes Jb{
+	0%{right:9.375rem; opacity: 0;}
 	10%{opacity: 1}
 	30%, to{right:-15px;opacity: 0;}
 }
+@keyframes Jb{
+	0%{right:120px; opacity: 0;}
+	10%{opacity: 1}
+	30%, to{right:-15px;opacity: 0;}
+}
+@-webkit-keyframes Jbg{
+	0%{right:80px; opacity: 0;}
+	10%{opacity: 1}
+	20%, to{right:-10px;opacity: 0;}
+}
 @keyframes Jbg{
-	0%{right:80px; opacity: 0}
+	0%{right:80px; opacity: 0;}
 	10%{opacity: 1}
 	20%, to{right:-10px;opacity: 0;}
 }
