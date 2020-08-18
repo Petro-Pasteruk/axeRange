@@ -1281,6 +1281,13 @@
 	.nice-select:after {
 		top: 50%;
 	}
+	.section1__headline,
+	.section2__headline,
+	.section3__headline,
+	.section4__headline,
+	.section5__headline {
+		font-size: 3rem;
+	}
 }
 @media screen and (max-width: 414px) {
 	.section1__headline {

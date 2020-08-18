@@ -937,12 +937,13 @@ footer{
 	position: relative;
 	z-index: 999;
 	cursor: pointer;
+	overflow: hidden;
 }
 .raiting-icone:before,
 .spacial-raiting:before{
 	opacity:1;
 	transition:15s ease-in}
-.raiting-icone:hover:before{
+.raiting-icone:before{
 	opacity:.95;
 	cursor:pointer;
 	content:"";
@@ -954,11 +955,9 @@ footer{
 	background-repeat:no-repeat;
 	background-image:url(../images/blik.jpg);
 	top:45%;
-	right:90%;
-	animation:Jb 3.4s ease-in-out;
-	animation-duration:3.5s;
+	right:100%;
 }
-.spacial-raiting:hover:before{
+.spacial-raiting:before{
 	opacity:.95;
 	cursor:pointer;
 	content:"";
@@ -969,16 +968,27 @@ footer{
 	background-size:contain;
 	background-repeat:no-repeat;
 	background-image:url(../images/blik.jpg);
-	top:54%;right:90%;
+	top:54%;right:100%;
+}
+
+.raiting-icone:hover:before {
 	animation:Jb 3.4s ease-in-out;
 	animation-duration:3.5s;
 }
+
+.spacial-raiting:hover:before {
+	animation:Jb 3.4s ease-in-out;
+	animation-duration:3.5s;
+}
+
 @keyframes Jb{
-	0%{right:120px}
+	0%{right:120px; opacity: 0}
+	10%{opacity: 1}
 	30%, to{right:-15px;opacity: 0;}
 }
 @keyframes Jbg{
-	0%{right:80px}
+	0%{right:80px; opacity: 0}
+	10%{opacity: 1}
 	20%, to{right:-10px;opacity: 0;}
 }
 /*зайчик*/
