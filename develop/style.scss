@@ -1,5 +1,6 @@
 @import "css/aos";
 @import "css/normalize";
+@import "css/swiper-bundle.min";
 
 @font-face {
 	font-family: 'Bebas Neue';
@@ -1007,6 +1008,21 @@ footer{
 .slick-slider {
 	touch-action: auto!important;
 	-ms-touch-action: auto!important;
+}
+
+
+.swiper-slide {
+	transition: opacity .3s, width .3s, margin-bottom .3s, margin-top .3s;
+	opacity: .7;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.swiper-slide-active {
+	width: 40% !important;
+	opacity: 1;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 @import "css/responsive";

@@ -1,31 +1,3 @@
-$(document).ready(function(){
-    $('.slider2').slick({
-        autoplay: false,
-        infinite: true,
-        initialSlide: 1,
-        centerMode: true,
-        centerPadding: '25%',
-        arrows: false,
-        //easing: 'linear',
-        //waitForAnimate: false,
-        responsive:[
-            {
-                breakpoint: 450,
-                settings:{
-                    centerPadding: '17%',
-                },
-            },
-            {
-                breakpoint: 800,
-                settings:{
-                    centerPadding: '22%',
-                },
-            }
-        
-        ]
-    });
-});
-
 $(document).ready(function () {
     AOS.init({
         once: true
@@ -134,9 +106,20 @@ $(document).ready(function () {
 
 $(document).ready(function() {
     $('select').niceSelect();
+
     AOS.init({
         once: true,
         duration: 1000,
         offset: 160
+    });
+
+    var swiper = new Swiper('.slider2', {
+        slidesPerView: 2.5,
+        spaceBetween: 20,
+        loop: true,
+        centeredSlides: true,
+        pagination: {
+            clickable: true,
+        },
     });
 });
