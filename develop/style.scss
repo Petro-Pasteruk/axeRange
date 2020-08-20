@@ -1018,8 +1018,12 @@ footer{
 	margin-bottom: 10px;
 }
 
+.swiper-slide-prev {
+	margin-left: -10px;
+}
+
 .swiper-slide-active {
-	width: 40% !important;
+	width: 70% !important;
 	opacity: 1;
 	margin-top: 0;
 	margin-bottom: 0;

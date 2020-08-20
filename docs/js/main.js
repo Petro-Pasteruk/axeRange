@@ -114,10 +114,12 @@ $(document).ready(function() {
     });
 
     var swiper = new Swiper('.slider2', {
-        slidesPerView: 2.5,
+        slidesPerView: 1.5,
         spaceBetween: 20,
         loop: true,
         centeredSlides: true,
+        slidesPerGroup: 1,
+        loopFillGroupWithBlank: true,
         pagination: {
             clickable: true,
         },
