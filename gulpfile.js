@@ -37,11 +37,11 @@ gulp.task("html", function () {
 gulp.task("scssComp", function () {
     return gulp.src("./develop/style.scss")
         .pipe(sourcemaps.init())
-        .pipe(sass({outputStyle: 'compressed'}))
-        .pipe(rename({suffix: '.min'}))
         .pipe(autoPrefix({
             overrideBrowserslist: ["last 4 versions"]
         }))
+        .pipe(sass({outputStyle: 'compressed'}))
+        .pipe(rename({suffix: '.min'}))
         .pipe(sourcemaps.write())
         .pipe( gulp.dest("./docs/css/"));
 });
