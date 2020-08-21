@@ -1031,3 +1031,9 @@ footer{
 
 @import "css/responsive";
 @import "css/nice-select";
+
+
+.nice-select.open .list {
+	background-image: url(../images/bg_section1.jpg);
+	background-size: cover;
+}
