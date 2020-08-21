@@ -1345,12 +1345,33 @@
 		/*padding-bottom: 52px;
 		padding-top: 52px;*/
 	}
+	.section1__target,
+	.section1__axe-right,
+	.section1__axe-left {
+		top: 46%;
+	}
+
+	.section1__btn {
+		margin-top: 40vh;
+	}
+
+	.raiting-icone, .spacial-raiting {
+		width: 90px;
+		margin: 5px 25px 10px 25px;
+	}
+
+	.section1__btn {
+		width: 170px;
+	}
 }
 @media screen and (max-width: 385px) {
 	.section1 {
 		min-height: 630px;
 	}
 	.open__item-text,
+	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+		font-size: 12px;
+	}
 	.open__item-text1 {
 		font-size: 1.2rem;
 	}
@@ -1368,11 +1389,6 @@
 		font-size: 14px;
 		z-index: 99;
 	}
-	.raiting-icone,
-	.spacial-raiting{
-		width: 90px;
-		margin: 0 15px 10px 15px;
-	}
 	.section2__text, .section3__text {
 		font-size: 14px;
 		width: 95%;
@@ -1380,7 +1396,7 @@
 	.section1__target,
 	.section1__axe-right,
 	.section1__axe-left {
-		top: 51%;
+		top: 47%;
 	}
 
 	/*.section4{
@@ -1388,12 +1404,16 @@
 	}*/
 }
 @media screen and (max-width: 380px) {
+	.open__item-text,
 	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+		font-size: 11px;
+	}
+	.open__item-text1 {
 		font-size: 1.1rem;
 	}
 }
 @media screen and (max-width: 370px) {
-	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+	.open__item-text1 {
 		font-size: 1rem;
 	}
 }
@@ -1409,12 +1429,16 @@
 	.open__item-text1 {
 		font-size: 8px;
 	}
+	.open__item-text,
+	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+		font-size: 10px;
+	}
 }
 @media screen and (max-width: 342px) {
 	.h1 {
 		font-size: 1.4rem;
 	}
-	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
+	.contact__item-text1 {
 		font-size: .9rem;
 	}
 }
@@ -1471,9 +1495,6 @@
 	.section1__axe-left,
 	.section1__axe-right {
 		top: 49%;
-	}
-	.raiting-icone, .spacial-raiting {
-		margin: 0 10px 10px 10px;
 	}
 	.section1__btn {
 		margin-top: 42vh;
