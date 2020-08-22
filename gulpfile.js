@@ -13,7 +13,14 @@ const
     concat = require('gulp-concat');
 
 gulp.task("jsComp", function () {
-    return gulp.src("./develop/js/*")
+    return gulp.src(["./develop/js/jquery.min.js","./develop/js/swiper-bundle.min.js", "./develop/js/jquery.nice-select.min.js", "./develop/js/aos.js", "./develop/js/slick.js", "./develop/js/main.js"])
+        .pipe(concat('main.js'))
+        .pipe(minify({
+            ext: {
+                min: '.min.js'
+            },
+            ignoreFiles: ['-min.js']
+        }))
         .pipe(gulp.dest("./docs/js/"));
 });
 

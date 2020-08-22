@@ -140,7 +140,7 @@ a{
 .section1{
 	position: relative;
 	height: 850px;
-	background-image: url("../images/bg_section1.jpg");
+	background-image: url("../images/jpg/bg_section1.jpg");
 	background-size: cover;
 }
 .section1:after{
@@ -328,7 +328,7 @@ a{
 	position: relative;
 	/*height: 46.875rem;*/
 	padding-bottom: 46px;
-	background-image: url("../images/bg_section2.jpg");
+	background-image: url("../images/jpg/bg_section2.jpg");
 	background-size: cover;
 }
 .section2__headline{
@@ -357,7 +357,7 @@ a{
 .section3{
 	position: relative;
 	padding-bottom: 46px;
-	background-image: url("../images/bg_section3.jpg");
+	background-image: url("../images/jpg/bg_section3.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -396,7 +396,7 @@ a{
 	position: relative;
 	/*height: 46.875rem; */
     padding-bottom: 46px;
-	background-image: url("../images/bg_section1.jpg");
+	background-image: url("../images/jpg/bg_section1.jpg");
 	background-position: top center;
 	background-size: cover;
 }
@@ -490,7 +490,7 @@ a{
 .section5{
 	position: relative;
 	/*height: 46.875rem;*/
-	background-image: url("../images/bg_section5.jpg");
+	background-image: url("../images/jpg/bg_section5.jpg");
 	background-size: cover;
 	padding-bottom: 46px;
 }
@@ -692,7 +692,7 @@ a{
 .section6{
 	position: relative;
 	height: 750px;
-	background-image: url("../images/bg_section6.jpg");
+	background-image: url("../images/jpg/bg_section6.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -954,7 +954,7 @@ footer{
 	height: 40px;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/blik.jpg);
+	background-image:url(../images/jpg/blik.jpg);
 	top:45%;
 	right:100%;
 }
@@ -968,7 +968,7 @@ footer{
 	height:40px;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/blik.jpg);
+	background-image:url(../images/jpg/blik.jpg);
 	top:54%;right:100%;
 }
 
@@ -1034,6 +1034,9 @@ footer{
 
 
 .nice-select.open .list {
-	background-image: url(../images/bg_section1.jpg);
+	background-image: url(../images/jpg/bg_section1.jpg);
 	background-size: cover;
 }
+
+@import "css/slick-theme";
+@import "css/slick";
