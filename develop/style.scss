@@ -1040,3 +1040,29 @@ footer{
 
 @import "css/slick-theme";
 @import "css/slick";
+
+
+ 
+ 
+@media (max-width: 375px){
+	.section1__btn--mt{
+		margin-top: 225px;
+	}
+}
+
+@media (max-width: 1025px){
+	.section5__info{
+		margin-top: 30px;
+	}
+	.section3__text{
+		margin: 30px auto 0 auto;
+	}
+}
+
+@media  (max-width: 425px){
+	.section1__headline, .section2__headline, .section3__headline, .section4__headline, .section5__headline {
+		padding-top: 30px;
+		line-height: 1.2;
+  }
+} 
+ 

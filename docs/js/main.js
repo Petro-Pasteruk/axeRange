@@ -3170,7 +3170,7 @@ $(document).ready(function() {
     AOS.init({
         once: true,
         duration: 1000,
-        offset: 160
+        offset: 100
     });
 
     var swiper = new Swiper('.slider2', {
