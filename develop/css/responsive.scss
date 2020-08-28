@@ -1122,7 +1122,7 @@
 		margin-top: 25px;
 	}
 	.section1__headline, .section2__headline, .section3__headline, .section4__headline, .section5__headline{
-		margin-bottom: 22px;
+		margin-bottom: 20px;
 	}
 	.block__img{
 		width: 17rem;
@@ -1445,7 +1445,7 @@
 
 @media (max-width: 375px){
 	.section1__btn--mt{
-		margin-top: 170px;
+		margin-top: 170px !important;
 	}
 }
 
