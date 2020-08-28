@@ -232,7 +232,6 @@
 		line-height: 0.75;
 		text-align: center;
 		padding-top: 46px;
-		margin-bottom: 1.75rem;
 	}
 	.section2__text{
 		font-size: 1.125rem;
@@ -257,7 +256,6 @@
 		line-height: 0.75;
 		text-align: center;
 		padding-top: 46px;
-		margin-bottom: 1.75rem;
 	}
 	.section3__text{
 		font-size: 1.125rem;
@@ -265,7 +263,6 @@
 		line-height: 1.667;
 		text-align: center;
 		width: 45.5rem;
-		margin: 2.875rem auto 0 auto;
 	}
 	/*SECTION3*/
 	/*SECTION4*/
@@ -308,7 +305,6 @@
 		line-height: 0.75;
 		text-align: center;
 		padding-top: 46px;
-		margin-bottom: 1.75rem;
 	}
 	.icon-cards{
 		display: none;
@@ -392,7 +388,6 @@
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		margin-top: 60px;
 	}
 	.tablet{
 		display: none;
@@ -1002,9 +997,13 @@
 	}*/
 	.section__info-block{
 		width: 90%;
-		margin: 1rem auto;
 		display: flex;
 		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.section__info-block + .section__info-block {
+		margin-top: 16px;
 	}
 	.block__img{
 		position: relative;
@@ -1091,10 +1090,7 @@
 		height: auto;
 		padding-bottom: 64px;
 	}
-	.slider2{
-		margin-top: 20px;
-	}
-
+ 
 
 
 
@@ -1109,12 +1105,8 @@
 	}
 
 
-	.section5__info{
-		margin-top: 30px;
-	}
-	.section3__text{
-		margin: 30px auto 0 auto;
-	}
+ 
+ 
 }
 
  
@@ -1126,6 +1118,12 @@
 	/*.section2__headline, .section3__headline {
 		padding-top: 0;
 	}*/
+	.section2__text+.section2__text{
+		margin-top: 25px;
+	}
+	.section1__headline, .section2__headline, .section3__headline, .section4__headline, .section5__headline{
+		margin-bottom: 22px;
+	}
 	.block__img{
 		width: 17rem;
 		height: 10.84rem;
@@ -1148,12 +1146,7 @@
 
 	
 
-	.section5__info{
-		margin-top: 30px;
-	}
-	.section3__text{
-		margin: 30px auto 0 auto;
-	}
+ 
 
 }
 @media screen and (max-width: 595px) {
@@ -1238,7 +1231,6 @@
 	}
 	.tablet {
 		height: 395px;
-		margin-top: 20px;
 	}
 	.section1{
 		height: 100vh;
@@ -1320,11 +1312,7 @@
 	.contact{
 		justify-content: space-between;
 	}
-	.section4__headline {
-		
-		padding-top: 6.5rem;
-		margin-bottom: 2.875rem;
-	}
+ 
 	.contact__item-text1, .mailto, .maplink, .mobile-phone, .open__item-text {
 		font-size: 1.2rem;
 	}
