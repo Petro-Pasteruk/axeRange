@@ -18,7 +18,11 @@
 		margin-top: 77px;
 	}
 }
-
+@media only screen and (max-height: 697px) {
+	.section1__bottom{
+		margin-top: 32px;
+	}
+ }
 
 @media screen and (max-width: 1230px) {
 	/*html {
