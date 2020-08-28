@@ -1,3 +1,25 @@
+
+@media (max-width: 1920px){
+	.section1{
+		height: 100vh;
+	}
+	.section1__bottom{
+		margin-top: 280px;
+	}
+}
+
+
+
+@media (max-width: 1750px){
+	.section1{
+		height: 850px;
+	}
+	.section1__bottom{
+		margin-top: 77px;
+	}
+}
+
+
 @media screen and (max-width: 1230px) {
 	/*html {
 		font-size: 80%;
