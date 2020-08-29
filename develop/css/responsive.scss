@@ -901,7 +901,7 @@
 				line-height: 34px;
 				min-height: 34px; }
 		  .nice-select .list {
-			width: 195px;
+			width: 182px;
 			background-color: transparent;
 			/* border-radius: 5px; */
 			box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
@@ -1236,9 +1236,9 @@
 	html {
 		font-size: 50%;
 	}
-	.nice-select .list {
-		width: 85px!important;
-	}
+	// .nice-select .list {
+	// 	width: 129px !important;
+	// }
 	.block1__right-link a{
 		padding: 15px 20px 15px 0;
 		text-decoration: underline;
@@ -1280,7 +1280,7 @@
 		font-size: 14px!important;
 	}
 	.nice-select .list {
-		width: 105px!important;
+		width: 129px !important;
 	}
 	.header{
 		padding-top: 15px;
@@ -1471,7 +1471,7 @@
 
 @media (max-width: 375px){
 	.section1__btn--mt{
-		margin-top: 180px !important;
+		margin-top: 170px !important;
 	}
 }
 
