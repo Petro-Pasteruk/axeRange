@@ -170,6 +170,11 @@ a{
 .select{
 	margin-top: 12px;
 }
+
+.section1__headline, .section2__headline, .section3__headline, .section4__headline, .section5__headline{
+	margin-bottom: 50px;
+}
+
 .section1__headline{
 	position: relative;
 	font-size: 48px;
@@ -347,11 +352,15 @@ a{
 	text-align: center;
 	width: 728px;
 	font-weight: 500;
-	margin: 46px auto 0 auto;
+	
+	margin-left: auto;
+	margin-right: auto;
 }
-.section2__text.oneSection {
-	margin: 30px auto 0 auto;
+
+.section2__text + .section2__text{
+	margin-top: 46px;
 }
+
 /*SECTION2*/
 /*SECTION3*/
 .section3{
@@ -376,8 +385,14 @@ a{
 	line-height: 1.667;
 	text-align: center;
 	width: 728px;
-	margin: 30px auto 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+.section3__text + .section3__text{
+	margin-top: 30px;
+}
+
 /*SECTION3*/
 /*SECTION4*/
 .section4:before{
@@ -430,7 +445,7 @@ a{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 30px;
+	margin-top: 0;
 }
 .section4__card-item{
 	position: relative;
@@ -507,7 +522,7 @@ a{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 30px;
+	margin-top: 0;
 }
 .tablet{
 	display: none;
@@ -829,7 +844,7 @@ footer{
 	font-size: 18px;
 }
 .open__item-text1{
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 300;
 	line-height: 1.222;
 }
@@ -1040,3 +1055,18 @@ footer{
 
 @import "css/slick-theme";
 @import "css/slick";
+
+
+ 
+ 
+
+
+
+@media  (max-width: 425px){
+	.section1__headline, .section2__headline, .section3__headline, .section4__headline, .section5__headline {
+		padding-top: 33px;
+		margin-bottom: 10px;
+		line-height: 1.2;
+  }
+} 
+ 
