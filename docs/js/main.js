@@ -3170,7 +3170,7 @@ $(document).ready(function() {
     AOS.init({
         once: true,
         duration: 1000,
-        offset: 160
+        offset: 100
     });
 
     var swiper = new Swiper('.slider2', {
@@ -3183,5 +3183,10 @@ $(document).ready(function() {
         pagination: {
             clickable: true,
         },
+        breakpoints: {
+            640: {
+                slidesPerView: 2.5
+            }
+        }
     });
 });

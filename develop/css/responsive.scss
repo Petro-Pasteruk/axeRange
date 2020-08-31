@@ -1497,6 +1497,22 @@
 	}
 }
 
+@media screen and (max-width: 640px) and (min-height: 360px) {
+	.swiper-slide {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.swiper-slide-prev {
+		margin-left: -10px;
+	}
+
+	.swiper-slide-active {
+		width: 40% !important;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
 @media screen and (max-width: 425px) and (max-height: 735px) {
 	.section1__target,
 	.section1__axe-left,

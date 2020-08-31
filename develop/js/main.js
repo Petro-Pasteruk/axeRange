@@ -123,5 +123,10 @@ $(document).ready(function() {
         pagination: {
             clickable: true,
         },
+        breakpoints: {
+            640: {
+                slidesPerView: 2.5
+            }
+        }
     });
 });
