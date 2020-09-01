@@ -41,7 +41,7 @@ $(document).ready(function () {
 \t\t\t\t\t\t<div class="open__item-text">10 am – 11 pm</div>
 \t\t\t\t\t</div><br>
 \t\t\t\t\t<div class="open__item">
-\t\t\t\t\t\t<div class="open__item-text1">Last Ticket Sold One Hour Prior
+\t\t\t\t\t\t<div class="open__item-text1 noWrap">Last Ticket Sold One Hour Prior
 \t\t\t\t\t\t\t<br>to Closing</div>
 \t\t\t\t\t</div>`;
         newOpen.innerHTML = `
@@ -60,7 +60,7 @@ $(document).ready(function () {
 \t\t\t\t\t\t<div class="open__item-text">10 am – 10 pm</div>
 \t\t\t\t\t</div><br>
 \t\t\t\t\t<div class="open__item">
-\t\t\t\t\t\t<div class="open__item-text1">Last Ticket Sold One Hour Prior
+\t\t\t\t\t\t<div class="open__item-text1 noWrap">Last Ticket Sold One Hour Prior
 \t\t\t\t\t\t\t<br>to Closing</div>
 \t\t\t\t\t</div>`;
 

@@ -834,6 +834,12 @@ footer{
 	width: 224px;
 	margin-bottom: 10px;
 }
+.open__item:nth-last-of-type(2) *,
+.open__item:nth-last-of-type(1) *,
+.open__item:nth-last-of-type(2),
+.open__item:nth-last-of-type(1) {
+	margin: 0;
+}
 .open__item-text{
 	font-size: 18px;
 	font-weight: 300;
