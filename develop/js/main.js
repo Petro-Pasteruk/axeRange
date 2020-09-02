@@ -41,8 +41,8 @@ $(document).ready(function () {
 \t\t\t\t\t\t<div class="open__item-text">10 am – 11 pm</div>
 \t\t\t\t\t</div><br>
 \t\t\t\t\t<div class="open__item">
-\t\t\t\t\t\t<div class="open__item-text1 noWrap">Last Ticket Sold One Hour Prior
-\t\t\t\t\t\t\t<br>to Closing</div>
+\t\t\t\t\t\t<div class="open__item-text1 noWrap">Last ticket sold one hour prior
+\t\t\t\t\t\t\t\t<br>to closing</div>
 \t\t\t\t\t</div>`;
         newOpen.innerHTML = `
                 <div class="h1">Hours open 365 days</div>
@@ -60,8 +60,8 @@ $(document).ready(function () {
 \t\t\t\t\t\t<div class="open__item-text">10 am – 10 pm</div>
 \t\t\t\t\t</div><br>
 \t\t\t\t\t<div class="open__item">
-\t\t\t\t\t\t<div class="open__item-text1 noWrap">Last Ticket Sold One Hour Prior
-\t\t\t\t\t\t\t<br>to Closing</div>
+\t\t\t\t\t\t<div class="open__item-text1 noWrap">Last ticket sold one hour prior
+\t\t\t\t\t\t\t\t<br>to closing</div>
 \t\t\t\t\t</div>`;
 
         oldContactItem.innerHTML = `<a title="click to visit map" target="_blank" class="maplink" href="https://goo.gl/maps/11mRJZFuJsZhbc2K9">211 S State St, Chicago, IL<span>60604</span></a>`;
