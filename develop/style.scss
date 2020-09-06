@@ -168,13 +168,12 @@ a{
 	width: 94px;
 }
 .select{
-	margin-top: 12px;
+	margin-top: -40px;
 }
 
 .section1__headline, .section2__headline, .section3__headline, .section4__headline, .section5__headline{
 	margin-bottom: 50px;
 }
-
 .section1__headline{
 	position: relative;
 	font-size: 48px;
@@ -183,7 +182,8 @@ a{
 	line-height: 1.2;
 	text-align: center;
 	font-weight: 500;
-	margin-top: 90px;
+	margin-top: 160px;
+	margin-bottom: 30px;
 }
 .section1__text{
 	position: relative;
@@ -197,7 +197,7 @@ a{
 }
 .section1__btn{
 	position: relative;
-	margin: 28px auto 0 auto;
+	margin: 35px auto 0 auto;
 	font-size: 24px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -305,27 +305,27 @@ a{
 	width: 144px;
 }
 .section1__target{
-	position: absolute;
-	left: 50%;
-	top: 50%;
 	transform: translate(-50%, -50%);
 	width: 696px;
 	mix-blend-mode: color;
 }
-.section1__axe-left{
+.section1__target,
+.section1__axe-left,
+.section1__axe-right {
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	transform: translate(-60%, -50%);
+	top: 47%;
+}
+.section1__axe-left,
+.section1__axe-right {
 	width: 704px;
+}
+.section1__axe-left{
+	transform: translate(-60%, -50%);
 }
 
 .section1__axe-right{
-	position: absolute;
-	left: 50%;
-	top: 50%;
 	transform: translate(-40%, -50%);
-	width: 704px;
 }
 /*SECTION1*/
 /*SECTION2*/
@@ -476,11 +476,11 @@ a{
 	font-weight: 500;
 }
 .section4__card-item-link{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.2;
 	text-align: center;
 	position: absolute;
-	bottom: -2.5rem;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	font-weight: 500;
