@@ -3151,6 +3151,8 @@ $(document).ready(function () {
 
                 parentParentMap.removeChild(parentMap);
                 parentParentMap.appendChild(newMapParent);
+
+                sessionStorage.setItem("selectCity", "St. Augustine");
             } else if (currentNiceSelect.innerText === "Chicago") {
                 parentContact.removeChild(currentOpen);
                 parentContact.appendChild(oldOpen);
@@ -3160,6 +3162,8 @@ $(document).ready(function () {
 
                 parentParentMap.removeChild(parentMap);
                 parentParentMap.appendChild(oldMapParent);
+
+                sessionStorage.setItem("selectCity", "Chicago");
             }
         }, 50);
     }
@@ -3185,11 +3189,13 @@ $(document).ready(function () {
                     longitude: position.coords.longitude - coordinatesAugustine.longitude
                 };
 
-            if (distanceChicago.latitude > distanceAugustine.latitude || distanceChicago.longitude > distanceAugustine.longitude) {
+            if (sessionStorage.getItem("selectCity")) {
                 const selectCurrent = document.querySelector(".nice-select .current");
-
+                selectCurrent.innerText = sessionStorage.getItem("selectCity");
+                toggleCity();
+            } else if (distanceChicago.latitude > distanceAugustine.latitude || distanceChicago.longitude > distanceAugustine.longitude) {
+                const selectCurrent = document.querySelector(".nice-select .current");
                 selectCurrent.innerText = "St. Augustine";
-
                 toggleCity();
             }
 
