@@ -3201,7 +3201,13 @@ $(document).ready(function () {
 
         },
 
-        function(error){}
+        function(error){
+            if (sessionStorage.getItem("selectCity")) {
+                const selectCurrent = document.querySelector(".nice-select .current");
+                selectCurrent.innerText = sessionStorage.getItem("selectCity");
+                toggleCity();
+            }
+        }
     );
 
     setTimeout(function () {
