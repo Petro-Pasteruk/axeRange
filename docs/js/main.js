@@ -3142,7 +3142,7 @@ $(document).ready(function () {
             parentMap = document.querySelector("#parentMap"),
             preloader = document.querySelector(".lds-roller__wrap");
 
-        if (!e.target.classList.contains("current")) {
+        if (e.target.classList.contains("option")) {
             preloader.classList.add("active");
             document.querySelector("body").classList.add("no-scroll");
             setTimeout(() => {
