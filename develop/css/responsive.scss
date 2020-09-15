@@ -1570,6 +1570,12 @@
 	}
 }
 
+@media screen and (max-width: 414px) and (min-width: 410px) and (max-height: 740px) {
+	.section1__btn {
+		margin-top: 40vh;
+	}
+}
+
 //@media screen and (max-width: 425px) and (max-height: 735px) {
 //	.section1__target,
 //	.section1__axe-left,
