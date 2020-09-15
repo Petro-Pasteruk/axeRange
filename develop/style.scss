@@ -638,6 +638,47 @@ a{
 	width: 256px;
 }
 
+.worldBiggest .block1__right-text,
+.worldAxeThrowing .block1__right-text,
+.whistlePunks .block1__right-text {
+	overflow: auto;
+}
+
+.whistlePunks.bigWidth {
+	width: 280px;
+}
+
+.whistlePunks.bigWidth .block__left-text {
+	width: 145px;
+}
+
+.whistlePunks.bigWidth .block21__right-link {
+	margin-top: 8px;
+}
+
+.whistlePunks.bigWidth .block1__right-text {
+	height: 30px;
+}
+
+.worldAxeThrowing .block1__right-text {
+	height: 147px;
+}
+
+.worldBiggest .block1__right-text {
+	height: 123px;
+}
+
+.whistlePunks .block1__right-text {
+	height: 50px;
+	margin-top: 8px;
+	font-size: 13px;
+}
+
+.whistlePunks .block21__right-headline,
+.whistlePunks .block1__right-headline {
+	font-size: 14px;
+}
+
 .block1__left,
 .block1__right,
 .block__left-img,
@@ -664,7 +705,7 @@ a{
 
 .block1__left-text{
 	position: absolute;
-	bottom: 22px;
+	bottom: 100px;
 	right: 0;
 	left: 0;
 	padding: 0 10px;
