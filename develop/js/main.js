@@ -140,13 +140,24 @@ $(document).ready(function () {
                 };
 
             if (sessionStorage.getItem("selectCity")) {
-                const selectCurrent = document.querySelector(".nice-select .current");
-                selectCurrent.innerText = sessionStorage.getItem("selectCity");
-                toggleCity();
+                const niceSelect = document.querySelector(".nice-select");
+                if (sessionStorage.getItem("selectCity") === "Chicago") {
+                    setTimeout(() => {
+                        niceSelect.querySelector('.option[data-value="1"]').click();
+                        niceSelect.classList.remove("open");
+                    }, 200);
+                } else {
+                    setTimeout(() => {
+                        niceSelect.querySelector('.option[data-value="2"]').click();
+                        niceSelect.classList.remove("open");
+                    }, 200);
+                }
             } else if (distanceChicago.latitude > distanceAugustine.latitude || distanceChicago.longitude > distanceAugustine.longitude) {
-                const selectCurrent = document.querySelector(".nice-select .current");
-                selectCurrent.innerText = "St. Augustine";
-                toggleCity();
+                const niceSelect = document.querySelector(".nice-select");
+                setTimeout(() => {
+                    niceSelect.querySelector('.option[data-value="2"]').click();
+                    niceSelect.classList.remove("open");
+                }, 200);
             }
 
         },
