@@ -3142,7 +3142,7 @@ $(document).ready(function () {
             currentOpen = document.querySelector(".contact .open"),
             parentParentMap = document.querySelector(".cell__line-footer"),
             parentMap = document.querySelector("#parentMap"),
-            preloader = document.querySelector(".lds-roller__wrap");
+            preloader = document.querySelector(".loader-wrap");
 
         if (e.target.classList.contains("option") && counter > 0) {
             preloader.classList.add("active");
@@ -3150,7 +3150,7 @@ $(document).ready(function () {
             setTimeout(() => {
                 preloader.classList.remove("active");
                 document.querySelector("body").classList.remove("no-scroll");
-            }, 900);
+            }, 1000);
         }
 
         setTimeout(() => {

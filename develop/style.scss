@@ -76,6 +76,12 @@ a{
 	transition: opacity 1.5s;
 	z-index: 10;
 }
+.loader-wrap.active {
+	z-index: 101 !important;
+	opacity: 1 !important;
+	background: rgba(1,1,1,.9);
+	transition: opacity .3s;
+}
 .loader {
 	width: 75px;
 	height: 100px;
@@ -119,67 +125,6 @@ a{
 		-o-transform: scaleY(1.8);
 		transform: scaleY(1.8);
 	}
-}
-
-/* LOADER CITY */
-.lds-roller__wrap {
-	position: fixed;
-	opacity: 0;
-	z-index: -10;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	transition: opacity .3s, z-index .3s;
-	width: 100vw;
-	height: 100vh;
-	background: rgba(0,0,0,.7);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.lds-roller__wrap.active {
-	z-index: 101;
-	opacity: 1;
-}
-.lds-roller {
-	width: 8vmax;
-	height: 8vmax;
-	border-right: 4px solid #ffffff;
-	border-radius: 100%;
-	animation: spinRight 800ms linear infinite;
-
-	&:before, &:after {
-		content: '';
-		width: 6vmax;
-		height: 6vmax;
-		display: block;
-		position: absolute;
-		top: calc(50% - 3vmax);
-		left: calc(50% - 3vmax);
-		border-left: 3px solid #ffffff;
-		border-radius: 100%;
-		animation: spinLeft 800ms linear infinite;
-	}
-
-	&:after {
-		width: 4vmax;
-		height: 4vmax;
-		top: calc(50% - 2vmax);
-		left: calc(50% - 2vmax);
-		border: 0;
-		border-right: 2px solid #ffffff;
-		animation: none;
-	}
-}
-
-@keyframes spinLeft {
-	from {transform:rotate(0deg);}
-	to {transform:rotate(720deg);}
-}
-
-@keyframes spinRight {
-	from {transform:rotate(360deg);}
-	to {transform:rotate(0deg);}
 }
 
 /*SECTION1*/
@@ -593,10 +538,19 @@ a{
 	width: 256px;
 }
 
-.worldBiggest .block1__right-text,
-.worldAxeThrowing .block1__right-text,
-.whistlePunks .block1__right-text {
+.innerWrap {
 	overflow: auto;
+	height: 85px;
+}
+
+.worldAxeThrowing .innerWrap {
+	height: 198px;
+}
+
+.block1__right-link,
+.block21__right-link,
+.block22__right-link {
+	text-align: right !important;
 }
 
 .whistlePunks.bigWidth {
@@ -609,24 +563,6 @@ a{
 
 .whistlePunks.bigWidth .block21__right-link {
 	margin-top: 8px;
-}
-
-.whistlePunks.bigWidth .block1__right-text {
-	height: 30px;
-}
-
-.worldAxeThrowing .block1__right-text {
-	height: 147px;
-}
-
-.worldBiggest .block1__right-text {
-	height: 123px;
-}
-
-.whistlePunks .block1__right-text {
-	height: 50px;
-	margin-top: 8px;
-	font-size: 13px;
 }
 
 .whistlePunks .block21__right-headline,
