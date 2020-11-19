@@ -538,6 +538,10 @@ a{
 	width: 256px;
 }
 
+.block1__left-image {
+	transform: scale(1.1);
+}
+
 .innerWrap {
 	overflow: auto;
 	height: 85px;
@@ -724,7 +728,7 @@ a{
 	justify-content: space-between;
 }
 .block__left-img{
- 	width: 116px;
+	 width: 116px;
 }
 .block__left-text{
 	width: 126px;
